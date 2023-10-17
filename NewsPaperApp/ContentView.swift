@@ -13,7 +13,8 @@ struct ContentView: View {
             
             VStack {
                 
-                Text("Dagens nyheter").bold().font(.title)
+                Text("today-news").bold().font(.title)
+                Button(action: {}, label: {})
                 
                 CardComponentView()
               .frame(width: geometry.size.width * 0.9, height: geometry.size.height * 0.25, alignment: .center).background(.black).cornerRadius(9)
